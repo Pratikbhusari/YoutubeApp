@@ -21,6 +21,7 @@ const SearchBar = ()=>{
          }
     }
 
+    
     return(
         <Paper 
         component='form'

@@ -10,7 +10,6 @@ const SideBar = ({selectedCategory,setCategory})=>{
             onClick={()=>setCategory(category.name)}
             className="category-btn" key={category.name} style={{background: category.name === selectedCategory && '#FC1503',
             color:'white'}
-            
             }>
                 <span style={{color:category.name === selectedCategory ? 'white':'red',marginRight:15}}>{category.icon}</span>
                 <spna>{category.name}</spna>
@@ -19,5 +18,6 @@ const SideBar = ({selectedCategory,setCategory})=>{
         </Stack>
     )
 }
+
 
 export default SideBar

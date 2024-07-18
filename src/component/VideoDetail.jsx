@@ -20,6 +20,7 @@ const VideoDetail = ()=>{
   
 
 
+  
   return(
     <Box minHeight='92vh'>
       <Stack direction={{xs:'column',md:'row'}}>
@@ -36,6 +37,7 @@ const VideoDetail = ()=>{
                       <CheckCircle sx={{fontSize:12,color:'',ml:'5px'}}/>
                   </Typography>
                </Link>
+               
                <Stack direction='row' gap={{md:'20px',xs:'10px'}}>
                    <Typography color='white'>
                    <ThumbUp sx={{mx:'0px',mb:'-5px'}}/>

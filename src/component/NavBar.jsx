@@ -19,6 +19,8 @@ const NavBar = ()=>{
       <SearchBar/>
       </Stack>
     )
+
+    
 }
 
 export default NavBar

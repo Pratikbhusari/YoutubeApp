@@ -18,6 +18,7 @@ const [videos,setVideos] = useState([])
 
     const setCategory = (category)=>{
         setSelectedCategory(category)
+        
     }
 
     return(

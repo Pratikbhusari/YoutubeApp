@@ -1,5 +1,5 @@
 import { Stack,Box } from "@mui/material";
-import {Video,SideBar} from './'
+import {Video} from './'
 import{useEffect,useState} from 'react'
 import { fetchFromApi } from "../utils/fetchFromApi";
 import { useParams } from "react-router-dom";

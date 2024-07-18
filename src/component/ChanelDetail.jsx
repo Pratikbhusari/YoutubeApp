@@ -2,7 +2,7 @@ import {useState,useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import { fetchFromApi } from '../utils/fetchFromApi';
 import { Box } from '@mui/material';
-import {VideoCard,ChannelCard,Video} from './'
+import {ChannelCard,Video} from './'
 
 const ChanelDetail = ()=>{
   const {id} = useParams();
@@ -24,7 +24,7 @@ const ChanelDetail = ()=>{
       <div style={{color:'transparent', display:'flex', justifyContent:'center', position:'absolute', width:'100vw',marginTop:'85px'}}>
       {channelInfo && <ChannelCard channel={channelInfo}/>}
       </div >
-        <div style={{ background: 'rgb(63,94,251)',
+        <div style={{ /*background: 'rgb(63,94,251)'*/
 background:'radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%)',height:'300px' }}/>
       <Box mt={15} sx={{marginLeft:{md:15,xs:0}}}>
        <Video videos={videos}/>
